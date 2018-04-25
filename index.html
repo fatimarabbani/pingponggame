@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+	<head>
+		<title>Ping Pong Game</title>
+<!--CSS Links -->
+	<link rel=" stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+	<link rel="stylesheet" href="style.css" type="text/css">
+<!--Java Script Links-->	
+	<script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+	<script src="js/script.js" ></script>
+</head>
+<body>
+	<!--Heading Starts Here-->
+	<div class="container">
+		<div class="heading">
+			<center> <h1>PING PONG</h1> </center>
+		</div>
+	</div>
+	<!--Heading Ends Here-->
+	
+	<!--Games Details Start-->
+	<div class="container" id="about-cont">
+		<div class="row">
+			<div class="col-md-4" id="about">
+				<h3>About Ping Pong</h3>
+				<h4>Created by: </h4>
+				<p>Kiran Rabbani</p>
+				<h3>GitHub Username/URL:</h3>
+				<p><a href="https://github.com/">Ping Pong Link Here</a></p>
+				<p><i>HTML,CSS,Bootstrap,Java</i></p>
+			</div>
+	<!--Games Details End-->
+	
+	<!--Game Rules Start--> 
+			<div class="col-md-8" id="hh">
+				<h3>Let's play!</h3>
+				<h4>Rules:</h4>
+				<p>Ping Pong will count up to the given number from 1 with the following exceptions:</p>
+				<ol>
+				<li>Numbers divisible by 3 become "ping"</li>
+				<li>Numbers divisible by 5 become "pong"</li>
+				<li>Numbers divisible by 15 become "pingpong"</li>
+				</ol>
+	<!--Game Rules End--> 
+
+	<!--Form Start-->
+				<div class="form">
+					<form id="form_submit" >
+						<label for="userNumber"><strong>Please Enter Your Number Here </strong></label>
+						<input id="ab" type="number" name="number" value="">
+						<button  type="submit" name="button"><b>Ping Pong !!!</b></button>
+					</form>
+		<!--Form End-->
+		
+		<!--Output-->
+					<div class="output">
+						<ul id="output"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
